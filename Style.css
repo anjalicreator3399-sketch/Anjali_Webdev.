@@ -1,8 +1,8 @@
 #snap {
-        border: 10px solid skyblue;
+        border: 8px solid skyblue;
         width: 340;
-        padding-top: 0;
+        padding: 0%;
         height: 600;
-        margin: 2px;
-        
+        margin: 5px;
+
     } 
