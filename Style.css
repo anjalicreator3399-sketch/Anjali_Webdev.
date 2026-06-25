@@ -12,5 +12,10 @@
       color: navy;
       font-weight: bolder;
       font-size: larger;
-      font-family: 'Courier New', Courier, monospace;
  }
+   .video {
+      border: 8px solid greenyellow;
+      width: auto;
+      height: auto;
+      margin: 5px;
+   }
