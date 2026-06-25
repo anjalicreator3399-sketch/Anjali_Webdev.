@@ -1,6 +1,7 @@
- iframe {
+ #snap {
         border: 5px solid skyblue !important;
-        display: inline-block;
-        padding: 10px;
-        margin: 10px;
+        width: 3px;
+        padding : 5px;
+        height: 5px;
+        margin: 7px;
     } 
