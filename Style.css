@@ -16,6 +16,7 @@
    .video {
       border: 8px solid greenyellow;
       width: 340;
+      padding: 0%;
       height: 600;
       margin: 5px;
    }
