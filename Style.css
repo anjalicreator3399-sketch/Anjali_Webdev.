@@ -15,7 +15,7 @@
  }
    .video {
       border: 8px solid greenyellow;
-      width: auto;
-      height: auto;
+      width: 340;
+      height: 600;
       margin: 5px;
    }
