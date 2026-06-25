@@ -6,11 +6,11 @@
         margin: 5px;
 
     } 
-    
+
  #head {
       text-align: center;
-      color: yellow;
-      font-weight: bold;
-      font-size: medium;
+      color: navy;
+      font-weight: bolder;
+      font-size: larger;
       font-family: 'Courier New', Courier, monospace;
  }
