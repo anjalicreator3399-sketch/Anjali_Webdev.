@@ -13,9 +13,7 @@ async function startCamera() {
     mediaRecorder = new MediaRecorder(stream);
     mediaRecorder.ondataavailable = (event) => {
     recordedChunks.push(event.data);
-                                };
-                                    
-                                   mediaRecorder.onstop = () => {
+                                };                                mediaRecorder.onstop = () => {
                                    let blob = new Blob(recordedChunks, { type: "video/webm" });
                                                         recording.src = URL.createObjectURL(blob);
                                                                 recordedChunks = [];
