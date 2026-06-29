@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+        div > p:first-child{
+            background-color: aqua;
+            text-decoration-color: white;}
+        div > p:not(:first-child){
+            background-color:blue;
+            text-decoration-color: white;
+        }
+        
+        
+    </style>
+    <title>Box building</title>
 </head>
 <body>
-    hi this is new project 
-    
+    <h1>hi this is new project</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nulla quas laboriosam totam saepe consectetur dolorum sed quaerat harum placeat?</p>
+        <p>this is next para</p>
+        <p>This is another para</p>
+    </div>
+
 </body>
 </html>
